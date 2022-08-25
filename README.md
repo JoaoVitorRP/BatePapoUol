@@ -1,17 +1,17 @@
-First version
+Second version
 
-Features:
+Changelog:
 
-- Static site (HTML and CSS).
+- Added Chat history linked with UOL API;
+- Automatic scrollbar.
 
 
 To Do:
 
 - Login;
-- Chat history linked with UOL API and according to username;
+- Chat history according to username;
 - Enable sending messages and store them in the server;
 - On/off status;
-- Automatic rollbar;
 - Enable private messages;
 - Do the login screen (bonus);
 - Do the online people sidebar (bonus);

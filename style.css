@@ -6,7 +6,7 @@ body {
   background-color: #f3f3f3;
   padding: 80px 0px;
 }
-h1 {
+h1, ::placeholder, textarea {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #000000;
@@ -16,6 +16,10 @@ span {
 }
 strong {
   font-weight: 700;
+}
+::placeholder, ::-webkit-input-placeholder{
+  font-size: 18px;
+  font-style: italic;
 }
 
 /* Top and Bottom Menu */
@@ -47,19 +51,22 @@ strong {
   left: 0;
 }
 
-.bottom h1 {
-  font-size: 18px;
-  font-style: italic;
-}
-
 .bottom ion-icon {
   font-size: 30px;
+}
+
+textarea{
+  width: 95%;
+  height: 65px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  resize: none;
 }
 
 /* Chat */
 .chat {
   width: 100%;
-  height: 1000px;
   padding: 22px 0px;
 }
 
