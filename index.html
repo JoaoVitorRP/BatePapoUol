@@ -18,22 +18,31 @@
     <title>Bate-Papo UOL</title>
   </head>
   <body>
+
+    <!-- Login Screen -->
+    <div class="login">
+      <img src="img/logo.png" />
+      <input type="text" placeholder="Digite seu nome...">
+      <h2></h2>
+      <button onclick="checkUsername()"><h1>Entrar</h1></button>
+    </div>
+
     <!-- Top menu -->
-    <div class="menu top">
+    <header class="menu top">
       <img src="img/logo.png" />
       <ion-icon name="people"></ion-icon>
-    </div>
+    </header>
 
     <!-- Chat -->
-    <div class="chat">
+    <main class="chat">
       <ul></ul>
-    </div>
+    </main>
 
     <!-- Bottom menu -->
-    <div class="menu bottom">
+    <footer class="menu bottom">
       <textarea placeholder='Escreva aqui...'></textarea>
       <ion-icon name="paper-plane-outline"></ion-icon>
-    </div>
+    </footer>
 
     <!-- Script Axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -50,5 +59,6 @@
 
     <!-- General script -->
     <script src="script.js"></script>
+
   </body>
 </html>
