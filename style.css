@@ -152,6 +152,7 @@ li {
   margin: 4px 0px;
   padding: 10px;
   border-radius: 2px;
+  word-break: break-word;
 }
 li h1 {
   font-size: 14px;
