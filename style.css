@@ -10,7 +10,6 @@ body {
 h1,
 h2,
 ::placeholder,
-textarea,
 input {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -48,7 +47,20 @@ strong {
   display: none;
 }
 
-input {
+.login img{
+  width: 130px;
+}
+
+.loading{
+  z-index: 3;
+}
+
+.gif{
+  margin: 94px 0px 10px 0px;
+}
+
+
+.login input {
   width: 261px;
   height: 54px;
   border: 1px solid #d7d7d7;
@@ -65,9 +77,10 @@ input::-webkit-input-placeholder {
   color: #aeaeae;
 }
 
+
 button {
   width: 109px;
-  height: 45px;
+  aspect-ratio: 2/1;
   border: none;
   border-radius: 9px;
   background-color: #28bb25;
@@ -112,19 +125,19 @@ button {
 
 .bottom ion-icon {
   font-size: 30px;
+  cursor: pointer;
 }
 
-textarea {
+.menu input {
   width: 95%;
   height: 65px;
   font-size: 18px;
   border: none;
   outline: none;
-  resize: none;
 }
 
-textarea::placeholder,
-textarea::-webkit-input-placeholder {
+.menu input::placeholder,
+.menu input::-webkit-input-placeholder {
   font-size: 18px;
   font-style: italic;
 }
